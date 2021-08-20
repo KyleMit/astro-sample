@@ -2,6 +2,12 @@
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
+## Links
+
+* [Github Repo](https://github.com/btv-dev/astro-sample)
+* [Codespaces](https://kylemit-btv-dev-astro-sample-r9xqxgpf5vqg.github.dev)
+* [Site Demo](https://kylemit-btv-dev-astro-sample-r9xqxgpf5vqg-3000.githubpreview.dev)
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
@@ -38,3 +44,4 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
+
