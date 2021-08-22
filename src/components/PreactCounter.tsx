@@ -6,7 +6,7 @@ export default function PreactCounter() {
   const subtract = () => setCount((i) => i - 1);
 
   return (
-    <div id="preact" class="counter">
+    <div id="preact" className="counter">
       <button onClick={subtract}>-</button>
       <pre>{count}</pre>
       <button onClick={add}>+</button>
