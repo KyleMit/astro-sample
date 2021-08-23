@@ -45,3 +45,8 @@ All commands are run from the root of the project, from a terminal:
 
 Feel free to check [our documentation](https://github.com/snowpackjs/astro) or jump into our [Discord server](https://astro.build/chat).
 
+sudo apt-get update
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
+sudo apt install fonts-firacode
