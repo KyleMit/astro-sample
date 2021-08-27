@@ -15,5 +15,13 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 # [Optional] Uncomment if you want to install more global node packages
 # RUN su node -c "npm install -g <your-package-list -here>"
 
+RUN sudo apt update
+
 # Install Fira Code
-# RUN sudo apt install fonts-firacode
+RUN sudo apt install fonts-firacode
+
+
+RUN sudo apt install wget \
+  && sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
+  && sudo apt install ./google-chrome*.deb --yes \
+  && rm ./google-chrome*.deb
